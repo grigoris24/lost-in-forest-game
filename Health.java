@@ -16,5 +16,6 @@ public class Health {
 
     public void loseLife(int lost) {
         this.number -= lost;
+        isAlive();
     }
 }
